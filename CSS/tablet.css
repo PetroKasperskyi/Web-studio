@@ -2,6 +2,12 @@
   .container {
     max-width: 768px;
   }
+  .menu-link {
+    padding: 24px 0;
+    position: relative;
+    font-weight: 500;
+    color: var(--title-text-color);
+  }
   .hero-section {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),

@@ -85,13 +85,18 @@ body {
 .studio {
   color: var(--title-text-color);
 }
-
-.menu-link {
-  padding: 24px 0;
-  position: relative;
-  font-weight: 500;
-  color: var(--title-text-color);
+.mobile-menu-open {
+  display: block;
+  max-width: 32px;
+  height: 22px;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
 }
+.mobile-menu-open-icon {
+  fill: var(--title-text-color);
+}
+
 .current {
   color: var(--hover-focus-color);
 }

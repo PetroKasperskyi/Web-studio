@@ -15,6 +15,9 @@
   .about-header {
     text-align: center;
   }
+  .menu list {
+    display: none;
+  }
 }
 @media screen and (min-width: 320px) and (max-width: 1199px) {
   .about-text {

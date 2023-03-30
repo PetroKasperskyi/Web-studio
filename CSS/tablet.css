@@ -1,0 +1,55 @@
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .hero-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/bg-tablet.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-section {
+      background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7),
+        url(../images/bg-tablet-2x.jpg)
+      );
+    }
+  }
+  .hero-title {
+    font-size: 56px;
+
+    width: 496px;
+    margin-bottom: 40px;
+  }
+  .about-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    column-gap: 24px;
+  }
+  .about-item {
+    width: calc((100% - 24px) / 2);
+  }
+  .team-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 72px;
+    column-gap: 24px;
+    justify-content: center;
+  }
+  .team-item {
+    width: calc((100% - 24px) / 2);
+  }
+  .costumers-list {
+    column-gap: 24px;
+  }
+  .costumers-item {
+    width: calc((100% - 48px) / 3);
+  }
+}

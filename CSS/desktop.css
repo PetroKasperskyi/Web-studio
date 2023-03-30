@@ -1,0 +1,89 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .section {
+    padding-bottom: 120px;
+  }
+  .hero-section {
+    padding: 188px 0;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/bg-desk.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-section {
+      background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7),
+        url(../images/bg-tablet-2x.jpg)
+      );
+    }
+  }
+  .hero-title {
+    margin-bottom: 48px;
+  }
+  .about {
+    padding-top: 120px;
+  }
+  .about-item {
+    max-width: 264px;
+  }
+  .about-item-icon {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 112px;
+    background: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+  .about-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .prod-sect-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 72px;
+  }
+  .prod-sect-list {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+  .prod-sect-item {
+    width: calc((100%-48px) / 3);
+  }
+
+  .team-section {
+    padding-top: 120px;
+  }
+  .team-list {
+    column-gap: 24px;
+  }
+  .team-item {
+    width: calc((100% - 72px) / 4);
+  }
+
+  .costumers-section {
+    padding-top: 120px;
+  }
+  .costumers-item {
+    width: 168px;
+  }
+}

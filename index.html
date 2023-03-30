@@ -20,11 +20,14 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./CSS/styles.css" />
+    <link rel="stylesheet" href="./CSS/mobile.css" />
+    <link rel="stylesheet" href="./CSS/tablet.css" />
+    <link rel="stylesheet" href="./CSS/desktop.css" />
   </head>
   <body>
     <!-- Header-->
 
-    <header class="page-header">
+    <!-- <header class="page-header">
       <div class="container header-conteiner">
         <nav class="navigation">
           <a class="logo link" href="./index.html">
@@ -56,7 +59,7 @@
           </li>
         </ul>
       </div>
-    </header>
+    </header> -->
 
     <main>
       <!-- Hero Section-->
@@ -135,13 +138,31 @@
           <h2 class="prod-sect-header">What are we doing</h2>
           <ul class="list prod-sect-list">
             <li class="prod-sect-item">
-              <img src="./images/img1.jpg" alt="#" width="360" height="300" />
+              <img
+                srcset="./images/img1.jpg 1x, ./images/img1-2x.jpg 2x"
+                src="./images/img1.jpg"
+                alt="#"
+                width="360"
+                height="300"
+              />
             </li>
             <li class="prod-sect-item">
-              <img src="./images/img2.jpg" alt="#" width="360" height="300" />
+              <img
+                srcset="./images/img2.jpg 1x, ./images/img2-2x.jpg 2x"
+                src="./images/img2.jpg"
+                alt="#"
+                width="360"
+                height="300"
+              />
             </li>
             <li class="prod-sect-item">
-              <img src="./images/img3.jpg" alt="#" width="360" height="300" />
+              <img
+                srcset="./images/img3.jpg 1x, ./images/img3-2x.jpg 2x"
+                src="./images/img3.jpg"
+                alt="#"
+                width="360"
+                height="300"
+              />
             </li>
           </ul>
         </div>
@@ -155,6 +176,7 @@
             <li class="team-item">
               <img
                 class="team-img"
+                srcset="./images/team-img1.jpg 1x, ./images/team-img1-2x.jpg 2x"
                 src="./images/team-img1.jpg"
                 alt="#"
                 width="264"
@@ -199,6 +221,7 @@
             <li class="team-item">
               <img
                 class="team-img"
+                srcset="./images/team-img2.jpg 1x, ./images/team-img2-2x.jpg 2x"
                 src="./images/team-img2.jpg"
                 alt="#"
                 width="264"
@@ -242,6 +265,7 @@
             <li class="team-item">
               <img
                 class="team-img"
+                srcset="./images/team-img3.jpg 1x, ./images/team-img3-2x.jpg 2x"
                 src="./images/team-img3.jpg"
                 alt="#"
                 width="264"
@@ -285,6 +309,7 @@
             <li class="team-item">
               <img
                 class="team-img"
+                srcset="./images/team-img4.jpg 1x, ./images/team-img4-2x.jpg 2x"
                 src="./images/team-img4.jpg"
                 alt="#"
                 width="264"
@@ -328,8 +353,10 @@
           </ul>
         </div>
       </section>
+
+      <!-- Costumers -->
       <section class="section costumers-section">
-        <div class="conteiner">
+        <div class="container">
           <h2 class="costumers-header">Customers</h2>
           <ul class="costumers-list list">
             <li class="costumers-item">
@@ -379,7 +406,7 @@
       </section>
     </main>
     <!-- Footer-->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container footer-container">
         <div class="footer-text">
           <a class="logo-footer link" href="./index.html">
@@ -445,8 +472,10 @@
           </form>
         </div>
       </div>
-    </footer>
-    <div class="backdrop is-hidden" data-modal>
+    </footer> -->
+
+    <!-- Modal -->
+    <!-- <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-button" data-modal-close>
           <svg class="modal-close-icon" width="8" height="8">
@@ -526,7 +555,7 @@
           <button type="submit" class="modal-form-submit">Send</button>
         </form>
       </div>
-    </div>
-    <script src="./js/modal.js"></script>
+    </div> -->
+    <!-- <script src="./js/modal.js"></script> -->
   </body>
 </html>

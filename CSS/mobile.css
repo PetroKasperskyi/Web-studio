@@ -1,0 +1,27 @@
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 428px;
+  }
+  .hero-title {
+    font-size: 36px;
+
+    width: 320px;
+  }
+  .about-item {
+    max-width: 396px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .about-header {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 1199px) {
+  .about-text {
+    font-weight: 500;
+  }
+
+  .prod-sect {
+    display: none;
+  }
+}

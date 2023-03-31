@@ -55,18 +55,14 @@ body {
 }
 
 /* Header*/
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .page-header {
   padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
-}
-.header-conteiner {
-  display: flex;
-}
-.navigation {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -85,46 +81,11 @@ body {
 .studio {
   color: var(--title-text-color);
 }
-.mobile-menu-open {
-  display: block;
-  max-width: 32px;
-  height: 22px;
-  justify-content: center;
-  border: none;
-  background-color: transparent;
-}
-.mobile-menu-open-icon {
-  fill: var(--title-text-color);
-}
 
-.current {
+.mobile-menu-link.current {
   color: var(--hover-focus-color);
 }
-.current::after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 4px;
-  bottom: 0;
-  left: 0;
 
-  background-color: var(--hover-focus-color);
-
-  border-radius: 2px;
-}
-.menu {
-  display: flex;
-  gap: 40px;
-}
-.contacts {
-  display: flex;
-  gap: 40px;
-  margin-left: auto;
-}
-.contacts-link {
-  color: var(--primary-text-color);
-}
 /* Hero section*/
 .hero-section {
   background: #2e2f42;
@@ -341,10 +302,13 @@ body {
 
 .footer {
   background: #2e2f42;
-  padding: 100px 0;
+  padding: 96px 0;
 }
 .footer-container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 72px;
 }
 
 .logo-footer {
@@ -356,7 +320,8 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-bottom: 16px;
+
+  max-height: 22px;
 }
 .web-footer {
   color: #4d5ae5;
@@ -369,9 +334,7 @@ body {
   max-width: 264px;
   margin-left: 0;
 }
-.footer-social {
-  margin-left: 120px;
-}
+
 .footer-header {
   font-style: normal;
   font-weight: 500;
@@ -407,12 +370,12 @@ body {
 .footer-social-item:focus {
   background-color: rgba(49, 208, 170, 1);
 }
-.footer-subs-wrapper {
-  margin-left: 80px;
-}
+
 .footer-subs-form {
   display: flex;
-  gap: 24px;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
 }
 .footer-form-input {
   display: block;

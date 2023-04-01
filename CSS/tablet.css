@@ -14,7 +14,7 @@
 
   .header-menu-wrapper {
     display: flex;
-    justify-content: space-between;
+
     align-items: center;
   }
   .navigation {
@@ -23,9 +23,12 @@
     align-items: flex-start;
     padding: 0px;
   }
-  .menu {
-    display: flex;
-    gap: 40px;
+
+  .menu-link {
+    padding: 24px 0;
+    position: relative;
+    font-weight: 500;
+    color: var(--title-text-color);
   }
   .current {
     color: var(--hover-focus-color);
@@ -38,17 +41,14 @@
     height: 4px;
     bottom: 0;
     left: 0;
-
     background-color: var(--hover-focus-color);
-
     border-radius: 2px;
   }
-  .menu-link {
-    padding: 24px 0;
-    position: relative;
-    font-weight: 500;
-    color: var(--title-text-color);
+  .menu {
+    display: flex;
+    gap: 40px;
   }
+
   .contacts {
     display: flex;
     flex-direction: column;
@@ -109,7 +109,22 @@
   .costumers-item {
     width: calc((100% - 48px) / 3);
   }
+
+  .footer-wrapper {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .footer-subs-form {
+    flex-direction: row;
+  }
   .logo-footer {
     margin-bottom: 16px;
+  }
+  .modal {
+    width: 408px;
+    height: 584px;
+    padding: 72px 24px 24px;
   }
 }

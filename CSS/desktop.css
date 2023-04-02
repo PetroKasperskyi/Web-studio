@@ -7,10 +7,16 @@
   .section {
     padding-bottom: 120px;
   }
+  .header-menu-wrapper {
+    justify-content: space-between;
+    gap: 95px;
+  }
   .contacts {
     flex-direction: row;
     gap: 40px;
+    margin-left: 237px;
   }
+
   .hero-section {
     padding: 188px 0;
     background-image: linear-gradient(
@@ -108,5 +114,14 @@
     display: flex;
     flex-direction: row;
     gap: 24px;
+  }
+  .filters-list {
+    margin-bottom: 72px;
+  }
+  .projects-menu-list {
+    gap: 40px 24px;
+  }
+  .projects-meny-item {
+    width: 360px;
   }
 }

@@ -17,6 +17,9 @@
   .about-item {
     max-width: 396px;
   }
+  .footer-form-input {
+    width: 398px;
+  }
   .modal {
     width: 392px;
   }
@@ -160,6 +163,23 @@
     flex-direction: column;
     gap: 16px;
     align-items: center;
+  }
+
+  .filters-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px;
+    max-width: 263px;
+    column-gap: 16px;
+    row-gap: 24px;
+
+    margin-bottom: 48px;
+  }
+  .projects-menu-list {
+    justify-content: center;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 1199px) {

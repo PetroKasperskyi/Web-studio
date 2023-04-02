@@ -119,12 +119,42 @@
   .footer-subs-form {
     flex-direction: row;
   }
+  .footer-form-input {
+    width: 264px;
+  }
   .logo-footer {
     margin-bottom: 16px;
   }
+
   .modal {
     width: 408px;
     height: 584px;
     padding: 72px 24px 24px;
+  }
+  /*--------- Portfolio---------*/
+  .filters {
+    padding-top: 96px;
+  }
+  .filters-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px;
+
+    column-gap: 24px;
+
+    margin-bottom: 64px;
+  }
+  .filters-button {
+    padding: 12px 24px;
+  }
+  .projects-menu-list {
+    flex-direction: row;
+    gap: 48px 24px;
+  }
+  .projects-meny-item {
+    width: calc((100% - 24px) / 2);
   }
 }
